@@ -9,7 +9,8 @@ The methods I used included styling of pseudo-elements and the usage of CSS auth
 
 <p>
 
-It is available to view on Github here: https://emcglackenr1.github.io/CSS_CoffeeCup/
+It is available to view on Github here: https://emcglackenr1.github.io/CSS_CoffeeCup/ </p>
+<p>
   and on Codepen here: https://codepen.io/emcglackenr1/pen/bGWQPzE
 
 </p>
