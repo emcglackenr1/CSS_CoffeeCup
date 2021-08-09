@@ -8,6 +8,8 @@ A coffee cup drawn just using CSS.
 
 <p>
 
-Available to view at: https://emcglackenr1.github.io/CSS_CoffeeCup/
+The finished version is available to view at: https://codepen.io/emcglackenr1/pen/bGWQPzE
+
+The Github version, still under construction can be seen here: https://emcglackenr1.github.io/CSS_CoffeeCup/
 
 </p>
