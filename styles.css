@@ -1,4 +1,4 @@
-@import "compass/css3"; /* See sources such as http://compass-style.org/reference/compass/css3/ for why this was used */
+@import "compass/css3";
 
 * {
   box-sizing: border-box;
@@ -23,7 +23,7 @@ body {
 }
  
 
-.coffee {
+.mug_inside {
   position: absolute;
   height: 60px;
   width: 223px;
@@ -34,7 +34,7 @@ body {
   box-shadow: 1px 0 15px #eee;
 }
 
-.mug:after {
+.mug:after { /*this is the coffee*/
   content: "";
   position: absolute; 
   Border-style: solid;
