@@ -3,9 +3,7 @@
 A coffee cup drawn just using CSS. 
 
 <p align="center">
-  <img src="
-
-" width="200"  alt="Coffee Cup">
+  <img src=" " width="200"  alt="Coffee Cup">
 </p>
 
 <p>
