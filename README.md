@@ -1,7 +1,7 @@
 <h1> CSS_CoffeeCup </h1>
 
 A coffee cup drawn using just CSS. 
-Methods included styling of pseudo-elements and usage of the CSS authoring framework Compass.
+The methods I used included styling of pseudo-elements and the usage of CSS authoring framework Compass.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/64873698/128766519-b44ffbdd-310a-4251-b2ac-ec397e80e05f.JPG" width="500"  alt="Coffee Cup">
