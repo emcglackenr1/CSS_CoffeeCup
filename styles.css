@@ -1,3 +1,50 @@
+@import "compass/css3"; /* See sources such as http://compass-style.org/reference/compass/css3/ for why this was used */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  background: purple;
+}
+
+.mug {
+  position: relative;
+  height: 300px;
+  width: 250px;
+  margin: auto;
+  padding-top: 100px;
+  background: linear-gradient(245deg, #ddd 0, grey .5%, white 100%);
+  background-color: white;
+  border-radius: 50% 50%;
+  border-top-left-radius: 125px 50px;
+  border-top-right-radius: 140px 50px;
+}
+ 
+
+.coffee {
+  position: absolute;
+  height: 60px;
+  width: 223px;
+  top: 10px;
+  left: 15px;
+  border-radius: 50%;
+  background: linear-gradient(140deg, #eee 0, silver 100%);
+  box-shadow: 1px 0 15px #eee;
+}
+
+.mug:after {
+  content: "";
+  position: absolute; 
+  Border-style: solid;
+  border-color: rgba(126,92,39,1);
+height: 37px;
+  width: 217px;
+  top: 24.5px;
+  left: 16px;
+  border-radius: 50% 50% 60% 60%;
+  background: linear-gradient(-6deg, black 1%, rgba(126,89,39,1) 68%, rgba(237,152,60,1) 100%)
 }
 
 .handle {
@@ -28,3 +75,4 @@
   background: purple;
   box-shadow: -5px 10px 20px #ccc;
 }
+
