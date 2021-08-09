@@ -1,30 +1,15 @@
-@import "compass/css3";
-
-* {
-  box-sizing: border-box;
 }
 
-body {
-  padding: 50px;
-  background: purple;
-}
-
-.mug {
+.handle {
   position: relative;
-  height: 300px;
-  width: 250px;
-  margin: auto;
-  padding-top: 100px;
-  background: linear-gradient(245deg, #ddd 0, grey .5%, white 100%);
-  background-color: white;
-  border-radius: 50% 50%;
-  border-top-left-radius: 125px 50px;
-  border-top-right-radius: 140px 50px;
-}
- 
-
-.coffee {
-  position: absolute;
+  height: 145px;
+  width: 75px;
+  top: -35px;
+  left: -65px;
+  border-top-left-radius: 110px;
+  border-bottom-left-radius: 120px;
+  border-top-right-radius: 50% 20px;
+  border-bottom-right-radius: 7% 10px;
   background: linear-gradient(245deg, #ddd 0, lightgrey .5%, white 100%);
   background-color: white;
 }
