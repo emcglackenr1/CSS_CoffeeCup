@@ -15,13 +15,12 @@ body {
   width: 250px;
   margin: auto;
   padding-top: 100px;
-  background: linear-gradient(245deg, #ddd 0, grey .5%, white 100%);
+  background: linear-gradient(245deg, #ddd 0, grey 0.5%, white 100%);
   background-color: white;
   border-radius: 50% 50%;
   border-top-left-radius: 125px 50px;
   border-top-right-radius: 140px 50px;
 }
- 
 
 .mug_inside {
   position: absolute;
@@ -34,17 +33,23 @@ body {
   box-shadow: 1px 0 15px #eee;
 }
 
-.mug:after { /*this is the coffee*/
+.mug:after {
+  /*this is the coffee*/
   content: "";
-  position: absolute; 
-  Border-style: solid;
-  border-color: rgba(126,92,39,1);
-height: 37px;
+  position: absolute;
+  border-style: solid;
+  border-color: rgba(126, 92, 39, 1);
+  height: 37px;
   width: 217px;
   top: 24.5px;
   left: 16px;
   border-radius: 50% 50% 60% 60%;
-  background: linear-gradient(-6deg, black 1%, rgba(126,89,39,1) 68%, rgba(237,152,60,1) 100%)
+  background: linear-gradient(
+    -6deg,
+    black 1%,
+    rgba(126, 89, 39, 1) 68%,
+    rgba(237, 152, 60, 1) 100%
+  );
 }
 
 .handle {
@@ -57,7 +62,7 @@ height: 37px;
   border-bottom-left-radius: 120px;
   border-top-right-radius: 50% 20px;
   border-bottom-right-radius: 7% 10px;
-  background: linear-gradient(245deg, #ddd 0, lightgrey .5%, white 100%);
+  background: linear-gradient(245deg, #ddd 0, lightgrey 0.5%, white 100%);
   background-color: white;
 }
 
@@ -75,4 +80,3 @@ height: 37px;
   background: purple;
   box-shadow: -5px 10px 20px #ccc;
 }
-
